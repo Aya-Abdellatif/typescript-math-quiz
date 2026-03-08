@@ -1,2 +1,134 @@
-# typescript-math-quiz
-A simple TypeScript math quiz application with login validation and randomly generated arithmetic questions.
+Here is a **clean and professional `README.md` template** you can use for your GitHub repo.
+It’s simple but looks **very good to recruiters and reviewers**.
+
+---
+
+# 📘 TypeScript Math Quiz
+
+A simple **TypeScript-based math quiz application** that requires user authentication and generates random arithmetic questions.
+The application evaluates user answers and displays the final score at the end of the quiz.
+
+---
+
+# 🚀 Features
+
+* 🔐 **Login Authentication**
+
+  * User must enter a valid email and password.
+  * Maximum **3 login attempts** allowed.
+
+* 🧮 **Random Math Questions**
+
+  * Generates arithmetic questions randomly.
+  * Supported operations:
+
+    * Addition (+)
+    * Subtraction (-)
+    * Multiplication (*)
+
+* 📝 **Custom Quiz Length**
+
+  * User chooses the **number of questions**.
+
+* 🎯 **Score Calculation**
+
+  * Each correct answer increases the score.
+  * Final score is displayed at the end of the quiz.
+
+---
+
+# 🛠 Technologies Used
+
+* **TypeScript**
+* **JavaScript**
+* **HTML**
+* **Browser APIs (alert, prompt)**
+
+---
+
+# 📂 Project Structure
+
+```
+typescript-math-quiz
+│
+├── src
+│   └── app.ts
+│
+├── dist
+│   └── app.js
+│
+├── index.html
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+# ▶️ How to Run the Project
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/typescript-math-quiz.git
+```
+
+---
+
+### 2️⃣ Install TypeScript (if not installed)
+
+```bash
+npm install -g typescript
+```
+
+---
+
+### 3️⃣ Compile TypeScript
+
+```bash
+tsc
+```
+
+This will generate the JavaScript file inside the **dist** folder.
+
+---
+
+### 4️⃣ Run the project
+
+Open **index.html** in your browser.
+
+---
+
+# 📸 Example Flow
+
+1️⃣ User enters email and password
+2️⃣ If authentication succeeds → user enters number of questions
+3️⃣ Random math questions are generated
+4️⃣ User answers each question
+5️⃣ Final score is displayed
+
+---
+
+# 🎯 Learning Goals
+
+This project was created to practice:
+
+* TypeScript basics
+* Functions and modular code
+* Random number generation
+* Simple authentication logic
+* Browser interaction (`alert`, `prompt`)
+
+---
+
+# 📌 Future Improvements
+
+* Add **division questions**
+* Add **timer for each question**
+* Create a **GUI instead of prompt/alert**
+* Add **difficulty levels**
+
+---
+
+# 👩‍💻 Author
+
+**Aya Abdellatif**
