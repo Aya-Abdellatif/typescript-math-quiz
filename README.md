@@ -1,8 +1,3 @@
-Here is a **clean and professional `README.md` template** you can use for your GitHub repo.
-It’s simple but looks **very good to recruiters and reviewers**.
-
----
-
 # 📘 TypeScript Math Quiz
 
 A simple **TypeScript-based math quiz application** that requires user authentication and generates random arithmetic questions.
