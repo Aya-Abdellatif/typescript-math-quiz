@@ -1,6 +1,6 @@
 # 📘 TypeScript Math Quiz
 
-🔗 **Live Demo:** https://your-username.github.io/typescript-math-quiz/
+🔗 **Live Demo:** [https://aya-abdellatif.github.io/typescript-math-quiz/](https://aya-abdellatif.github.io/typescript-math-quiz/)
 
 A simple **TypeScript-based math quiz application** that requires user authentication and generates random arithmetic questions.  
 The application evaluates user answers and displays the final score at the end of the quiz.
