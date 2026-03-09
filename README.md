@@ -1,71 +1,69 @@
 # 📘 TypeScript Math Quiz
 
-A simple **TypeScript-based math quiz application** that requires user authentication and generates random arithmetic questions.
+🔗 **Live Demo:** https://your-username.github.io/typescript-math-quiz/
+
+A simple **TypeScript-based math quiz application** that requires user authentication and generates random arithmetic questions.  
 The application evaluates user answers and displays the final score at the end of the quiz.
 
 ---
 
-# 🚀 Features
+## 🚀 Features
 
-* 🔐 **Login Authentication**
+### 🔐 Login Authentication
+- User must enter a valid email and password.
+- Maximum **3 login attempts** allowed.
 
-  * User must enter a valid email and password.
-  * Maximum **3 login attempts** allowed.
+### 🧮 Random Math Questions
+- Generates arithmetic questions randomly.
+- Supported operations:
+  - Addition (+)
+  - Subtraction (-)
+  - Multiplication (*)
 
-* 🧮 **Random Math Questions**
+### 📝 Custom Quiz Length
+- User chooses the **number of questions**.
 
-  * Generates arithmetic questions randomly.
-  * Supported operations:
-
-    * Addition (+)
-    * Subtraction (-)
-    * Multiplication (*)
-
-* 📝 **Custom Quiz Length**
-
-  * User chooses the **number of questions**.
-
-* 🎯 **Score Calculation**
-
-  * Each correct answer increases the score.
-  * Final score is displayed at the end of the quiz.
+### 🎯 Score Calculation
+- Each correct answer increases the score.
+- Final score is displayed at the end of the quiz.
 
 ---
 
-# 🛠 Technologies Used
+## 🛠 Technologies Used
 
-* **TypeScript**
-* **JavaScript**
-* **HTML**
-* **Browser APIs (alert, prompt)**
+- **TypeScript**
+- **JavaScript**
+- **HTML**
+- **Browser APIs** (`alert`, `prompt`)
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```
+
 typescript-math-quiz
 │
-├── src
-│   └── app.ts
-│
-├── dist
-│   └── app.js
-│
+├── script.ts
+├── script.js
 ├── index.html
-├── tsconfig.json
 └── README.md
-```
+
+````
+
+- **script.ts** → Main TypeScript source code  
+- **script.js** → Compiled JavaScript file  
+- **index.html** → Runs the application in the browser  
 
 ---
 
-# ▶️ How to Run the Project
+## ▶️ How to Run the Project
 
 ### 1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/your-username/typescript-math-quiz.git
-```
+````
 
 ---
 
@@ -80,10 +78,10 @@ npm install -g typescript
 ### 3️⃣ Compile TypeScript
 
 ```bash
-tsc
+tsc script.ts
 ```
 
-This will generate the JavaScript file inside the **dist** folder.
+This will generate **script.js** from **script.ts**.
 
 ---
 
@@ -93,7 +91,7 @@ Open **index.html** in your browser.
 
 ---
 
-# 📸 Example Flow
+## 📸 Example Flow
 
 1️⃣ User enters email and password
 2️⃣ If authentication succeeds → user enters number of questions
@@ -103,11 +101,11 @@ Open **index.html** in your browser.
 
 ---
 
-# 🎯 Learning Goals
+## 🎯 Learning Goals
 
 This project was created to practice:
 
-* TypeScript basics
+* TypeScript fundamentals
 * Functions and modular code
 * Random number generation
 * Simple authentication logic
@@ -115,15 +113,15 @@ This project was created to practice:
 
 ---
 
-# 📌 Future Improvements
+## 📌 Future Improvements
 
 * Add **division questions**
 * Add **timer for each question**
-* Create a **GUI instead of prompt/alert**
+* Replace **prompt/alert with a graphical UI**
 * Add **difficulty levels**
 
 ---
 
-# 👩‍💻 Author
+## 👩‍💻 Author
 
 **Aya Abdellatif**
