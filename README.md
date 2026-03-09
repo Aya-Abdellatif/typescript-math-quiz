@@ -1,4 +1,4 @@
-# 📘 TypeScript Math Quiz
+# TypeScript Math Quiz
 
 🔗 **Live Demo:** [https://aya-abdellatif.github.io/typescript-math-quiz/](https://aya-abdellatif.github.io/typescript-math-quiz/)
 
@@ -7,29 +7,29 @@ The application evaluates user answers and displays the final score at the end o
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🔐 Login Authentication
+### Login Authentication
 - User must enter a valid email and password.
 - Maximum **3 login attempts** allowed.
 
-### 🧮 Random Math Questions
+### Random Math Questions
 - Generates arithmetic questions randomly.
 - Supported operations:
   - Addition (+)
   - Subtraction (-)
   - Multiplication (*)
 
-### 📝 Custom Quiz Length
+### Custom Quiz Length
 - User chooses the **number of questions**.
 
-### 🎯 Score Calculation
+### Score Calculation
 - Each correct answer increases the score.
 - Final score is displayed at the end of the quiz.
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **TypeScript**
 - **JavaScript**
@@ -91,7 +91,7 @@ Open **index.html** in your browser.
 
 ---
 
-## 📸 Example Flow
+## Example Flow
 
 1️⃣ User enters email and password
 2️⃣ If authentication succeeds → user enters number of questions
@@ -101,7 +101,7 @@ Open **index.html** in your browser.
 
 ---
 
-## 🎯 Learning Goals
+## Learning Goals
 
 This project was created to practice:
 
@@ -113,7 +113,7 @@ This project was created to practice:
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 * Add **division questions**
 * Add **timer for each question**
@@ -122,6 +122,6 @@ This project was created to practice:
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Aya Abdellatif**
